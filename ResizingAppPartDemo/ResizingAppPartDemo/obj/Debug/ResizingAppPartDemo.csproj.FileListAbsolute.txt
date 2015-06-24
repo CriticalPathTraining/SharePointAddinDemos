@@ -1,0 +1,6 @@
+C:\Demo\ResizingAppPartDemo\ResizingAppPartDemo\bin\Debug\ResizingAppPartDemo.pdb
+C:\Demo\ResizingAppPartDemo\ResizingAppPartDemo\obj\Debug\ResizingAppPartDemo.dll
+C:\Demo\ResizingAppPartDemo\ResizingAppPartDemo\obj\Debug\ResizingAppPartDemo.pdb
+C:\Extras\ResizingAppPartDemo\ResizingAppPartDemo\bin\Debug\ResizingAppPartDemo.pdb
+C:\Extras\ResizingAppPartDemo\ResizingAppPartDemo\obj\Debug\ResizingAppPartDemo.dll
+C:\Extras\ResizingAppPartDemo\ResizingAppPartDemo\obj\Debug\ResizingAppPartDemo.pdb

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  
+  <ClientWebPart 
+    Name="ResizableAppPart" 
+    Title="Resizable App Part Demo" 
+    Description="This demo shows how to resize a app part after it has been created using the postMessage API." 
+    DefaultWidth="400" 
+    DefaultHeight="400">
+
+  <Content 
+      Type="html" 
+      Src="~appWebUrl/Pages/ResizableAppPart.aspx?{StandardTokens}" />
+
+    <Properties>
+    </Properties>
+
+  </ClientWebPart>
+  
+</Elements>
