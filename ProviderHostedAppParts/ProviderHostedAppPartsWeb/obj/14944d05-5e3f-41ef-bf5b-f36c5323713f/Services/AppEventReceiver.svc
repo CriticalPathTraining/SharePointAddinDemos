@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ProviderHostedAppPartsWeb.Services.AppEventReceiver" CodeBehind="AppEventReceiver.svc.cs"  Factory="Microsoft.VisualStudio.SharePoint.Remote.Diagnostics.RemoteEventServiceHostFactory, Microsoft.VisualStudio.SharePoint.Remote.Diagnostics, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" %>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="ProviderHostedAppParts" ProductID="{335c0b6e-8ec5-4b0f-b92e-7a6d9a50d79f}" Version="1.0.0.0" SharePointMinVersion="16.0.0.0">
+  <Properties>
+    <Title>CPT App Parts</Title>
+    <StartPage>https://localhost:44307/?{StandardTokens}</StartPage>
+    <InstalledEventEndpoint>https://developertesting.servicebus.windows.net/2233812029/781852651/obj/14944d05-5e3f-41ef-bf5b-f36c5323713f/Services/AppEventReceiver.svc</InstalledEventEndpoint>
+  </Properties>
+  <AppPrincipal>
+    <AutoDeployedWebApplication>
+      <DebugInfo ClientSecret="2kc+GnSSLEhhcrP58luLRDQ8Wp+Wn5MBkqO9ydYdNek=" AppUrl="https://localhost:44307/;https://developertesting.servicebus.windows.net/2233812029/781852651/obj/14944d05-5e3f-41ef-bf5b-f36c5323713f/" />
+    </AutoDeployedWebApplication>
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web" Right="FullControl" />
+  </AppPermissionRequests>
+</App>

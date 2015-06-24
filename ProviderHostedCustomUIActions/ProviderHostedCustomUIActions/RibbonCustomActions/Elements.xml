@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <CustomAction Id="Wingtip.SharePoint.Ribbon.NewGroupInExistingTab"
+                RegistrationType="List"
+                RegistrationId="105"
+                Location="CommandUI.Ribbon"
+                Sequence="1"
+                HostWebDialog="TRUE"
+                HostWebDialogWidth="500"
+                HostWebDialogHeight="350" >
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="Wingtip.SharePoint.Ribbon.NewGroupInExistingTab.CustomActionsTemplate">
+            <Layout Title="CustomGroupTemplate" LayoutTitle="CustomGroupTemplate">
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="AddNewItem" />
+                  <ControlRef DisplayMode="Large" TemplateAlias="AddTenItems" />
+                  <ControlRef DisplayMode="Large" TemplateAlias="AddFiftyItems" />
+                  <ControlRef DisplayMode="Large" TemplateAlias="AddRockStars" />
+                  <ControlRef DisplayMode="Large" TemplateAlias="DeleteAllItems" />
+                </Row>
+              </Section>
+            </Layout>
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.List.Scaling._children">
+          <MaxSize Id="Wingtip.SharePoint.Ribbon.NewGroupInExistingTab.CustomActions.MaxSize"
+                   Sequence="15"
+                   GroupId="Wingtip.SharePoint.Ribbon.NewGroupInExistingTab.CustomActions"
+                   Size="CustomGroupTemplate" />
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.List.Groups._children">
+          <Group Id="Wingtip.SharePoint.Ribbon.NewGroupInExistingTab.CustomActions"
+          Sequence="1"
+          Description="Specialized app behavior for contacts lists"
+          Title="Custom Actions"
+          Template="Wingtip.SharePoint.Ribbon.NewGroupInExistingTab.CustomActionsTemplate">
+            <Controls Id="Wingtip.SharePoint.Ribbon.NewGroupInExistingTab.CustomActions.Controls">
+
+              <Button Id="Ribbon.List.CustomActions.AddNewItem"
+                Alt="Add New Item"
+                Sequence="1"
+                Command="Command.AddNewItem"
+                LabelText="Add new item"
+                TemplateAlias="AddNewItem"
+                Image32by32="_layouts/15/images/peopletitle.png"
+                Image16by16="_layouts/15/images/placeholder16x16.png" />
+
+
+              <Button Id="Ribbon.List.CustomActions.AddTenItems"
+                Alt="Add Ten Items"
+                Sequence="2"
+                Command="Command.AddTenItems"
+                LabelText="Add 10 items"
+                TemplateAlias="AddTenItems"
+                Image32by32="_layouts/15/images/peopletitle.png"
+                Image16by16="_layouts/15/images/placeholder16x16.png" />
+
+
+              <Button Id="Ribbon.List.CustomActions.AddFiftyItems"
+                Alt="Add Fifty Items"
+                Sequence="3"
+                Command="Command.AddFiftyItems"
+                LabelText="Add 50 items"
+                TemplateAlias="AddFiftyItems"
+                Image32by32="_layouts/15/images/peopletitle.png"
+                Image16by16="_layouts/15/images/placeholder16x16.png" />
+
+
+              <Button Id="Ribbon.List.CustomActions.AddRockStars"
+                Alt="Add Rock Stars"
+                Sequence="4"
+                Command="Command.AddRockStars"
+                LabelText="Add RockStars"
+                TemplateAlias="AddRockStars"
+                Image32by32="_layouts/15/images/peopletitle.png"
+                Image16by16="_layouts/15/images/placeholder16x16.png" />
+
+
+             <Button Id="Ribbon.List.CustomActions.DeleteAllItems"
+                Alt="Delete All Items"
+                Sequence="5"
+                Command="Command.DeleteAllItems"
+                LabelText="Delete All Items"
+                TemplateAlias="DeleteAllItems"
+                Image32by32="_layouts/15/images/peopletitle.png"
+                Image16by16="_layouts/15/images/placeholder16x16.png" />
+
+            </Controls>
+
+          </Group>
+
+        </CommandUIDefinition>
+
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+
+        <CommandUIHandler
+          Command="Command.AddNewItem"
+          CommandAction="~remoteAppUrl/UIActions/AddNewItem?{StandardTokens}&amp;SPListItemId={SelectedItemId}&amp;SPListId={SelectedListId}"/>
+
+        <CommandUIHandler
+          Command="Command.AddTenItems"
+          CommandAction="~remoteAppUrl/UIActions/AddTenItems?{StandardTokens}&amp;SPListItemId={SelectedItemId}&amp;SPListId={SelectedListId}"/>
+
+        <CommandUIHandler
+          Command="Command.AddFiftyItems"
+          CommandAction="~remoteAppUrl/UIActions/AddFiftyItems?{StandardTokens}&amp;SPListItemId={SelectedItemId}&amp;SPListId={SelectedListId}"/>
+
+        <CommandUIHandler
+          Command="Command.AddRockStars"
+          CommandAction="~remoteAppUrl/UIActions/AddRockStars?{StandardTokens}&amp;SPListItemId={SelectedItemId}&amp;SPListId={SelectedListId}"/>
+
+    
+        <CommandUIHandler
+          Command="Command.DeleteAllItems"
+          CommandAction="~remoteAppUrl/UIActions/DeleteAllItems?{StandardTokens}&amp;SPListItemId={SelectedItemId}&amp;SPListId={SelectedListId}"/>
+
+      </CommandUIHandlers>
+
+    </CommandUIExtension>
+
+  </CustomAction>
+
+</Elements>

@@ -1,0 +1,22 @@
+﻿<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.WebPartPages.ClientWebPart, Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ProductWebId" type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">@HostWebId</property>
+        <property name="ProductId" type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">@ProductId</property>
+        <property name="FeatureId" type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">@FeatureId</property>
+        <property name="WebPartName" type="string">@AppPartName</property>
+        <property name="Title" type="string">Demo App Part</property>
+        <property name="Description" type="string">Silly App Part Description</property>
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+      </properties>
+    </data>
+  </webPart>
+</webParts>

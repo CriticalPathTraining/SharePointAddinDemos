@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Custom UI Action</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  @Styles.Render("~/Content/css")
+</head>
+<body>
+
+  <div class="container body-content">
+    @RenderBody()
+  </div>
+
+  @Scripts.Render("~/bundles/jquery")
+  @Scripts.Render("~/bundles/bootstrap")
+  @Scripts.Render("~/bundles/spcontext")
+  @RenderSection("scripts", required: false)
+
+  <script>
+    window.parent.postMessage('CloseCustomActionDialogRefresh', '*');
+  </script>
+
+</body>
+</html>

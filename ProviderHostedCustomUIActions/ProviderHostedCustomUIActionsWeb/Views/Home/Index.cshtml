@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ProviderHostedCustomUIActionsWeb.Models.ContactsList>
+
+@{
+  ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+  <p class="lead">
+    This sample provider-hosted app demonstrates developing SharePoint apps with UI Custom Actions.
+  </p>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>To use this demonstration</h3>
+    <p>
+      Click the <b>back to host web link</b> and navigate to any list that has been created using
+      the <b>Contacts</b> list type and activate the <b>List</b> tab in the ribbon. Inside the
+      <b>Lists</b> tab you should see a custom ribbion group named <b>Custom Actions</b> which
+      contains the following five custom UI actions.
+    </p>
+    <ol>
+      <li>Add Item</li>
+      <li>Add 10 Items</li>
+      <li>Add 50 Items</li>
+      <li>Add Rockstars</li>
+      <li>Delete All Items</li>
+    </ol>
+
+
+  </div>
+
+  <div class="col-md-6">
+    <h3>Navigate to a Contacts List</h3>
+    @if (Model.Count() == 0) {
+      <p>Currently, the host web associated with this SharePoint Add-in contains
+         no lists that were created from the <b>Contacts</b> list type. 
+         Click on the button below to create a new Contacts list in the host web so that you can successfully run this demo.</p>
+      @Html.ActionLink("Create Contacts List", "CreateContactsList", "Home", new object { }, new { @class = "btn btn-default" });
+      
+    }
+    @if (Model.Count() > 0) {
+
+      <p>The following lists are based on the contacts list type.</p>
+
+      <ul>
+        @foreach (var item in Model) {
+          <li><a href="@item.DefaultViewUrl">@item.Title</a></li>
+        }
+      </ul>
+
+    }
+
+
+  </div>
+
+</div>

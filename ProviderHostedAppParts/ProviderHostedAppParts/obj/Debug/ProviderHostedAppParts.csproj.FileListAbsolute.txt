@@ -1,0 +1,5 @@
+C:\Office365Demos\ProviderHostedAppParts\ProviderHostedAppParts\bin\Debug\ProviderHostedAppParts.dll.config
+C:\Office365Demos\ProviderHostedAppParts\ProviderHostedAppParts\bin\Debug\ProviderHostedAppParts.pdb
+C:\Office365Demos\ProviderHostedAppParts\ProviderHostedAppParts\obj\Debug\ProviderHostedAppParts.dll
+C:\Office365Demos\ProviderHostedAppParts\ProviderHostedAppParts\obj\Debug\ProviderHostedAppParts.pdb
+C:\Office365Demos\ProviderHostedAppParts\ProviderHostedAppParts\obj\Debug\ProviderHostedAppParts.csprojResolveAssemblyReference.cache

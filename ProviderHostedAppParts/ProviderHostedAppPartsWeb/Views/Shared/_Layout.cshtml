@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@ViewBag.Title - My ASP.NET Application</title>
+  @Styles.Render("~/Content/css")
+  @Scripts.Render("~/bundles/modernizr")
+  <link href="~/Content/App.css" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="navbar navbar-default navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#/">Provider-hosted App Parts Demo</a>
+        </div>
+        <div id="login" class="pull-right">
+          <a id="lnkHostWeb" href="#" class="btn btn-link">Back to Host Web</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container body-content">
+    @RenderBody()
+  </div>
+
+  @Scripts.Render("~/bundles/jquery")
+  @Scripts.Render("~/bundles/bootstrap")
+  @Scripts.Render("~/bundles/spcontext")
+  @RenderSection("scripts", required: false)
+
+  <script src="~/Scripts/Layouts.js"></script>
+
+</body>
+</html>

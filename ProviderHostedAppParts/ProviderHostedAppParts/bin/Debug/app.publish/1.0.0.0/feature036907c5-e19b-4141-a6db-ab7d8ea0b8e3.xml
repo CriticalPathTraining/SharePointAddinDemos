@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" 
+         Title="Provider-hosted App Parts" 
+         Description="Provider-hosted App Parts" 
+         Id="{335c0b6e-8ec5-4b0f-b92e-7a6d9a50d7a0}"
+         Hidden="TRUE" 
+         Scope="Web">
+</Feature>

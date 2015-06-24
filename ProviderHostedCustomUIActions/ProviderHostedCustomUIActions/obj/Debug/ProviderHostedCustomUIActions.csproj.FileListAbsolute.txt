@@ -1,0 +1,4 @@
+C:\Office365Demos\ProviderHostedCustomUIActions\ProviderHostedCustomUIActions\bin\Debug\ProviderHostedCustomUIActions.dll.config
+C:\Office365Demos\ProviderHostedCustomUIActions\ProviderHostedCustomUIActions\bin\Debug\ProviderHostedCustomUIActions.pdb
+C:\Office365Demos\ProviderHostedCustomUIActions\ProviderHostedCustomUIActions\obj\Debug\ProviderHostedCustomUIActions.dll
+C:\Office365Demos\ProviderHostedCustomUIActions\ProviderHostedCustomUIActions\obj\Debug\ProviderHostedCustomUIActions.pdb

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart 
+    Name="AppPart1" 
+    Title="AppPart1 Title" 
+    Description="AppPart1 Description" 
+    DefaultWidth="800" 
+    DefaultHeight="600">
+
+    <Content Type="html" Src="~remoteAppUrl/AppPart1?{StandardTokens}" />
+
+    <Properties>
+    </Properties>
+
+  </ClientWebPart>
+</Elements>
