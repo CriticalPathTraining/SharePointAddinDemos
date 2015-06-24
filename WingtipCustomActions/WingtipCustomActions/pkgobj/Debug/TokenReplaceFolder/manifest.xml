@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="88473a0c-4bd2-477a-ae04-6d7a9b618c57" SharePointProductVersion="15.0">
+  <FeatureManifests>
+    <FeatureManifest Location="WingtipCustomActions_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

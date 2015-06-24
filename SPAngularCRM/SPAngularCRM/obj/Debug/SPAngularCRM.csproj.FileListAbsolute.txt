@@ -1,0 +1,6 @@
+C:\Student\Modules\Angular\Demo\New folder\SPAngularCRM\SPAngularCRM\bin\Debug\SPAngularCRM.pdb
+C:\Student\Modules\Angular\Demo\New folder\SPAngularCRM\SPAngularCRM\obj\Debug\SPAngularCRM.dll
+C:\Student\Modules\Angular\Demo\New folder\SPAngularCRM\SPAngularCRM\obj\Debug\SPAngularCRM.pdb
+C:\Student\Modules\Angular\Demo\SPAngularCRM\SPAngularCRM\bin\Debug\SPAngularCRM.pdb
+C:\Student\Modules\Angular\Demo\SPAngularCRM\SPAngularCRM\obj\Debug\SPAngularCRM.dll
+C:\Student\Modules\Angular\Demo\SPAngularCRM\SPAngularCRM\obj\Debug\SPAngularCRM.pdb

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.4.min.map" Url="Scripts/jquery-2.1.4.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.4.min.js" Url="Scripts/jquery-2.1.4.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.4.js" Url="Scripts/jquery-2.1.4.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-2.1.4.intellisense.js" Url="Scripts/jquery-2.1.4.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\npm.js" Url="Scripts/npm.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.js" Url="Scripts/bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\TitleBumper.js" Url="Scripts/TitleBumper.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Wingtip.SharePointListManager.js" Url="Scripts/Wingtip.SharePointListManager.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\TitleBumper2.js" Url="Scripts/TitleBumper2.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\TitleBumpItDown.js" Url="Scripts/TitleBumpItDown.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\TitleBumpItUp.js" Url="Scripts/TitleBumpItUp.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

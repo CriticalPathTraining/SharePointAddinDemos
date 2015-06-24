@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\TitleBumper.aspx" Url="Pages/TitleBumper.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\TitleBumper2.aspx" Url="Pages/TitleBumper2.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\TitleBumpItDown.aspx" Url="Pages/TitleBumpItDown.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\TitleBumpItUp.aspx" Url="Pages/TitleBumpItUp.aspx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

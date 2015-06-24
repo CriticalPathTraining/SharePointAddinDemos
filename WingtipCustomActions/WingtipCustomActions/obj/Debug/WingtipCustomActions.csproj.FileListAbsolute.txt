@@ -1,0 +1,3 @@
+C:\DevProjects\WingtipCustomActions\WingtipCustomActions\bin\Debug\WingtipCustomActions.pdb
+C:\DevProjects\WingtipCustomActions\WingtipCustomActions\obj\Debug\WingtipCustomActions.dll
+C:\DevProjects\WingtipCustomActions\WingtipCustomActions\obj\Debug\WingtipCustomActions.pdb

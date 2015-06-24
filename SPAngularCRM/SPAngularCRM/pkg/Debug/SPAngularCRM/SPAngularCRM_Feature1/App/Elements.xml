@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="App">
+    <File Path="App\controllers\aboutController.js" Url="App/controllers/aboutController.js" ReplaceContent="TRUE" />
+    <File Path="App\controllers\editController.js" Url="App/controllers/editController.js" ReplaceContent="TRUE" />
+    <File Path="App\controllers\homeController.js" Url="App/controllers/homeController.js" ReplaceContent="TRUE" />
+    <File Path="App\controllers\newController.js" Url="App/controllers/newController.js" ReplaceContent="TRUE" />
+    <File Path="App\controllers\viewController.js" Url="App/controllers/viewController.js" ReplaceContent="TRUE" />
+    <File Path="App\services\wingtipCrmService.js" Url="App/services/wingtipCrmService.js" ReplaceContent="TRUE" />
+    <File Path="App\views\about.html" Url="App/views/about.html" ReplaceContent="TRUE" />
+    <File Path="App\views\edit.html" Url="App/views/edit.html" ReplaceContent="TRUE" />
+    <File Path="App\views\home.html" Url="App/views/home.html" ReplaceContent="TRUE" />
+    <File Path="App\views\new.html" Url="App/views/new.html" ReplaceContent="TRUE" />
+    <File Path="App\views\view.html" Url="App/views/view.html" ReplaceContent="TRUE" />
+    <File Path="App\App.js" Url="App/App.js" ReplaceContent="TRUE" />
+    <File Path="App\jquery-extensions.js" Url="App/jquery-extensions.js" ReplaceContent="TRUE" />
+    <File Path="App\start.html" Url="App/start.html" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

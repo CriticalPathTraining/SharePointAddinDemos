@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+
+  <CustomAction
+    Id="4d50b8a9-80d2-49d9-b99f-1c9dd3d6e0f8.TitleBumper2"
+    RegistrationType="List"
+    RegistrationId="100"
+    Location="EditControlBlock"
+    Sequence="10002"
+    Title="Bump Title to Upper Case (demo 2)"
+    HostWebDialog="TRUE"
+    HostWebDialogWidth="500"
+    HostWebDialogHeight="350" >
+
+    <UrlAction Url="~appWebUrl/Pages/TitleBumper2.aspx?{StandardTokens}&amp;SPListItemId={ItemId}&amp;SPListId={ListId}" />
+
+  </CustomAction>
+</Elements>

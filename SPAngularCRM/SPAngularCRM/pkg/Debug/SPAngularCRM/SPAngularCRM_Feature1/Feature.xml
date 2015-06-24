@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="206f7c6f-51bb-45b9-9256-ed58d0aba6e7" Scope="Web" Title="SPAngularCRM Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.map" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.intellisense.js" />
+    <ElementFile Location="Scripts\bootstrap.js" />
+    <ElementFile Location="Scripts\angular.js" />
+    <ElementFile Location="Scripts\angular-route.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\bootstrap-theme.css" />
+    <ElementFile Location="Content\bootstrap.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="Customers\Elements.xml" />
+    <ElementManifest Location="Elements.xml" />
+    <ElementManifest Location="App\Elements.xml" />
+    <ElementFile Location="App\controllers\aboutController.js" />
+    <ElementFile Location="App\controllers\editController.js" />
+    <ElementFile Location="App\controllers\homeController.js" />
+    <ElementFile Location="App\controllers\newController.js" />
+    <ElementFile Location="App\controllers\viewController.js" />
+    <ElementFile Location="App\services\wingtipCrmService.js" />
+    <ElementFile Location="App\views\about.html" />
+    <ElementFile Location="App\views\edit.html" />
+    <ElementFile Location="App\views\home.html" />
+    <ElementFile Location="App\views\new.html" />
+    <ElementFile Location="App\views\view.html" />
+    <ElementFile Location="App\App.js" />
+    <ElementFile Location="App\jquery-extensions.js" />
+    <ElementFile Location="App\start.html" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Customers\Elements.xml" />
+        <ElementManifest Location="Elements.xml" />
+        <ElementManifest Location="App\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

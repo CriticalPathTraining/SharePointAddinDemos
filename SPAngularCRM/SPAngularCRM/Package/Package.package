@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="793d1c48-7be9-4d46-b62b-a164dc0bd976" 
+        solutionId="793d1c48-7be9-4d46-b62b-a164dc0bd976" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SPAngularCRM"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="206f7c6f-51bb-45b9-9256-ed58d0aba6e7" />
+  </features>
+</package>

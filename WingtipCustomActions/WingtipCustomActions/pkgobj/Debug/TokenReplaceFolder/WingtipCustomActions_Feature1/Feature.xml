@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="fbb62614-248d-4617-a62d-0c26d893d016" Scope="Web" Title="WingtipCustomActions Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementFile Location="Pages\TitleBumper.aspx" />
+    <ElementFile Location="Pages\TitleBumper2.aspx" />
+    <ElementFile Location="Pages\TitleBumpItDown.aspx" />
+    <ElementFile Location="Pages\TitleBumpItUp.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery-2.1.4.min.map" />
+    <ElementFile Location="Scripts\jquery-2.1.4.min.js" />
+    <ElementFile Location="Scripts\jquery-2.1.4.js" />
+    <ElementFile Location="Scripts\jquery-2.1.4.intellisense.js" />
+    <ElementFile Location="Scripts\npm.js" />
+    <ElementFile Location="Scripts\bootstrap.min.js" />
+    <ElementFile Location="Scripts\bootstrap.js" />
+    <ElementFile Location="Scripts\TitleBumper.js" />
+    <ElementFile Location="Scripts\Wingtip.SharePointListManager.js" />
+    <ElementFile Location="Scripts\TitleBumper2.js" />
+    <ElementFile Location="Scripts\TitleBumpItDown.js" />
+    <ElementFile Location="Scripts\TitleBumpItUp.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\bootstrap-theme.min.css" />
+    <ElementFile Location="Content\bootstrap-theme.css.map" />
+    <ElementFile Location="Content\bootstrap-theme.css" />
+    <ElementFile Location="Content\bootstrap.min.css" />
+    <ElementFile Location="Content\bootstrap.css.map" />
+    <ElementFile Location="Content\bootstrap.css" />
+    <ElementFile Location="Content\Waiting.gif" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="Icon.png" />
+    <ElementFile Location="fonts\glyphicons-halflings-regular.woff2" />
+    <ElementFile Location="fonts\glyphicons-halflings-regular.woff" />
+    <ElementFile Location="fonts\glyphicons-halflings-regular.ttf" />
+    <ElementFile Location="fonts\glyphicons-halflings-regular.svg" />
+    <ElementFile Location="fonts\glyphicons-halflings-regular.eot" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>
